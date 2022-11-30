@@ -63,7 +63,7 @@ print(combostring)
 #     # iformat=f'{i},'
 #     iformat=str(i)
 #     print(iformat)
-with open('freqtrade_pairlist.csv', 'a',newline="\n") as f:
+with open('freqtrade_pairlist.csv', 'w',newline="\n") as f:
         writer = csv.writer(f)
 #         # write a row to the csv file
         writer.writerow([combostring])
@@ -92,7 +92,7 @@ print
 for data in normal:
         print(data)
 
-with open('freqtrade_pairlist_1.csv', 'a',newline="\n") as f:
+with open('freqtrade_pairlist.csv', 'w',newline="\n") as f:
         writer = csv.writer(f)
 #         # write a row to the csv file
         writer.writerow([data])
