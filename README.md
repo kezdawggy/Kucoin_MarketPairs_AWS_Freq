@@ -5,4 +5,4 @@ I want a file that has caputred the key pairs from Kucoin API.
 
 Then I do some ninja work to render a csv object that can be plugged into the freqtrade static pair list
 
-This file is called static_pair_list.csv
+This file is called freqtrade_pairlist.csv
